@@ -1,0 +1,18 @@
+package com.w2a.testcase;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class AddCustomerTest {
+	
+	@Test(dataProvider="getData")
+	public void addCustomer(String firstName, String lastName, String Postcode) {
+		
+	}
+	
+	//@DataProvider
+	//public Object[][] getData(){
+		
+	}
+
+
